@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          h1, nav{
+                background-color: lightsalmon;
+                height: 50px;
+                width: 100%;
+                text-align: center;
+            }
+            .section{
+                display: inline-block;
+                margin:5px;
+                width: 45%;
+                background-color: lightskyblue;
+                vertical-align: top;
+            }
+            a{
+                width: 100px;
+                height: 40px;
+                padding: 5px;
+                margin:5px;
+                align-content: center;
+                margin-left:15%;
+            }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Show All</a>
+        <a href="#">Add New Book</a>
+        <a href="#">Edit book Details</a>
+        <a href="#">Delete Book </a>
+
+    </nav>
+    <div class="section">
+        <table border="1">
+            <tr>
+                <th>Book ID</th>
+                <th>Book Title</th>
+                <th>Book Author</th>
+            </tr>
+        </table>
+    </div>
+    <div class="section">
+        <h2>Details of the Employee</h2>
+        <p>Book ID: <input id="bId"></span></p>
+        <p> Book Title: <input id="bTitle"/></p>
+        <p>>Book Author : <input id="bAuthor"/></p>
+        <p><button>Save Changes</button></p>
+    </div>
+    <div class="section">
+        <h2>Register New Employee</h2>
+        <p>Book ID: <input id="bookId" /></p>
+        <p>Book Title : <input id="bookAuthor" /></p>
+        <p>Book Author : <input id="bookTilte" /></p>
+        <p><button>Add Book</button></p>
+    </div>
+
+    <div class="section">
+        <h2>Delete Book</h2>
+        <p>Book ID: <input id="bookId" /></p>
+        <p>Book Title : <input id="bookAuthor" /></p>
+        <p>Book Author : <input id="bookTilte" /></p>
+        <p><button>Delete Book</button></p>
+    </div>
+
+
+
+</body>
+</html>

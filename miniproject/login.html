@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+  
+    <script>
+   
+        function submit(){
+            let username=document.getElementById("empId").value;
+            let password=document.getElementById("pwd").value;
+            if(username=="1234"&& password=="1234")
+            {
+               alert("valid");
+            }
+            
+            
+            elseif
+            {
+                alert("Invalid username and password");
+            }
+        }
+            
+
+    </script>
+</head>
+<body>
+<form  action="./CRED_Admin.html" method="GET">
+
+    <p>Employee ID</p>
+    <p><input type="text" placeholder="enter your ID" id="empId"></p>
+    <p>Password</p>
+    <p><input type="password" id="pwd"></p>
+    <p><button  type="button" onclick="submit()">Login</button></p>
+</form>
+</body>
+</html>

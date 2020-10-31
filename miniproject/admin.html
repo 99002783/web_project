@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function check(){
+         
+           var name=document.getElementById("admin").value;
+           var pad=document.getElementById("pass").value;
+           alert(name);
+           if(name=="admin"&&pad=="1234")
+           {
+              alert("logined successfully");
+           }
+           else{
+               alert("Invalid credentials");
+           }
+        }
+        
+    </script>
+    <style>
+        h1,body{
+            text-align: center;
+            background-color: paleturquoise;
+        }
+    </style>
+</head>
+<body>
+    <h1>LOGIN</h1>
+<p>Admin ID<input type="number" id="admin" placeholder="enter the ID"></p>
+<p>Password<input type="text" id="pass"placeholder="password"></p>
+<p><button onclick="check()">Submit</button></p> 
+</body>
+</html>
